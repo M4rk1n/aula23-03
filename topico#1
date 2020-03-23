@@ -1,0 +1,10 @@
+from random import randrange
+
+i = randrange(0,5)
+
+res = int(input("Descubra o número em que o computador pensou: "))
+
+if res == i:
+  print("Você acertou!" , i)
+else:
+  print("Você errou!, o número era: ", i)
